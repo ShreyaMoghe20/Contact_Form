@@ -1,0 +1,58 @@
+
+body {
+    margin: 15px;
+    padding: 0;
+    background-image: url('rostyslav-savchyn-9XtjVafxMUg-unsplash.jpg');
+    background-repeat: no-repeat;
+    color: #354558;
+    font-family: monospace;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.background-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+form {
+    width: 40%;
+    border: 2px solid black;
+    border-style: double;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+*{
+    border-width: 2px; border-color: #354558;
+    border-left: none;
+    border-right: none;
+    border-top: none;  
+}
+
+h2{
+    color: rgb(1, 40, 40); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    margin: no;
+}
+
+#message {
+    border: 2px black solid;
+}
+
+#submit-button{
+    font-size: 16px;
+	border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+footer {
+    text-align: center;
+}
