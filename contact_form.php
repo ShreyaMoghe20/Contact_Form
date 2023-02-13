@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $country = $_POST['country'];
     $txtMsg = $_POST['message'];
     
-    $secret = "6LcrgXgkAAAAAFQzMkuujSqegpIuILKcL7K_dI9u";
+    $secret = " ";
     $token = $_POST['g-recaptcha-response'];
     $remoteip = $_SERVER['REMOTE_ADDR'];
 
